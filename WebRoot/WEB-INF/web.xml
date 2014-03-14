@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Mytextservlert</servlet-name>
+    <servlet-class>com.app.servlert.Mytextservlert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jsonaservlert</servlet-name>
+    <servlet-class>com.app.servlert.jsonaservlert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginservlert</servlet-name>
+    <servlet-class>com.app.servlert.loginservlert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>isusername</servlet-name>
+    <servlet-class>com.app.servlert.isusername</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>upload</servlet-name>
+    <servlet-class>com.app.servlert.upload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>download</servlet-name>
+    <servlet-class>com.app.servlert.download</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jianyunshi</servlet-name>
+    <servlet-class>com.app.servlert.jianyunshi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>servers</servlet-name>
+    <servlet-class>com.app.servlert.servers</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getoilmoneyservlert</servlet-name>
+    <servlet-class>com.app.servlert.getoilmoneyservlert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Mytextservlert</servlet-name>
+    <url-pattern>/Mytextservlert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jsonaservlert</servlet-name>
+    <url-pattern>/jsonaservlert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginservlert</servlet-name>
+    <url-pattern>/loginservlert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>isusername</servlet-name>
+    <url-pattern>/isusername</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>upload</servlet-name>
+    <url-pattern>/upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>download</servlet-name>
+    <url-pattern>/download</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jianyunshi</servlet-name>
+    <url-pattern>/jianyunshi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>servers</servlet-name>
+    <url-pattern>/servers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getoilmoneyservlert</servlet-name>
+    <url-pattern>/getoilmoneyservlert</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Linepointservlert</display-name>
+    <servlet-name>Linepointservlert</servlet-name>
+    <servlet-class>com.app.servlert.Linepointservlert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Linepointservlert</servlet-name>
+    <url-pattern>/Linepointservlert</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>guestregisterservlert</display-name>
+    <servlet-name>guestregisterservlert</servlet-name>
+    <servlet-class>com.app.servlert.guestregisterservlert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>guestregisterservlert</servlet-name>
+    <url-pattern>/guestregisterservlert</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>hasusernameservlert</display-name>
+    <servlet-name>hasusernameservlert</servlet-name>
+    <servlet-class>com.app.servlert.hasusernameservlert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>hasusernameservlert</servlet-name>
+    <url-pattern>/hasusernameservlert</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>getdriveinfoservlert</display-name>
+    <servlet-name>getdriveinfoservlert</servlet-name>
+    <servlet-class>com.app.servlert.getdriveinfoservlert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getdriveinfoservlert</servlet-name>
+    <url-pattern>/getdriveinfoservlert</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>driverregisterservlert</display-name>
+    <servlet-name>driverregisterservlert</servlet-name>
+    <servlet-class>com.app.servlert.driverregisterservlert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>driverregisterservlert</servlet-name>
+    <url-pattern>/driverregisterservlert</url-pattern>
+  </servlet-mapping>
+</web-app>

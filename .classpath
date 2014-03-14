@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="E:/website/youluproject/WebRoot/jar/json_ar/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="E:/website/youluproject/WebRoot/jar/json_ar/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="E:/website/youluproject/WebRoot/jar/json_ar/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="E:/website/youluproject/WebRoot/jar/json_ar/commons-io-2.0.jar"/>
+	<classpathentry kind="lib" path="E:/website/youluproject/WebRoot/jar/json_ar/json-lib-2.2.3-jdk15.jar"/>
+	<classpathentry kind="lib" path="E:/website/youluproject/WebRoot/jar/json_ar/mysql-connector-java-5.1.5-bin.jar"/>
+	<classpathentry kind="lib" path="E:/website/youluproject/WebRoot/jar/json_ar/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="E:/website/youluproject/WebRoot/jar/json_ar/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/website/youluproject/WebRoot/jar/json_ar/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="E:/website/youluproject/WebRoot/jar/json_ar/morph-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/website/youluproject/WebRoot/jar/json_ar/xom1.1.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
